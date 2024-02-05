@@ -4,3 +4,4 @@ Welcome to Scholarship School, where academic prowess meets opportunity. This RE
 
 About Scholarship School At Scholarship School, we believe in the power of education to transform lives. Our institution is dedicated to providing high-quality education to students from diverse backgrounds, irrespective of their financial means. We understand that access to education should not be hindered by economic constraints, which is why we offer a range of scholarships to deserving students.
 
+![download](https://github.com/hasanasadov/holbertonschool-web-development/assets/125257868/e8ea1922-4d8c-4f91-91d9-4c6ad9945182)
