@@ -1,1 +1,27 @@
+header > main > h1 {
+    text-align: center; /* Center-align the content within the header */
+    background-color: #333; /* Example background color */
+    padding: 20px 0; /* Example padding */
+}
 
+h1 {
+    font-size: 3em; /* Set the font size to your desired value */
+    color: white; /* Set the text color */
+    margin-top: 20px; /* Add spacing above the h1 element */
+}
+
+header {
+    background-color: #cfcfcf; /* Set background color */
+    padding: 10px 20px; /* Add padding */
+}
+
+header div {
+    display: flex;
+    justify-content: space-between; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+}
+
+header a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline */
+}
