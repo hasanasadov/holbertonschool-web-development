@@ -151,7 +151,7 @@ blockquote {
 .tutorial-item{
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 45px;
 }
 .pink-text {
     color: #C271FF; /* Sets the color of the text to pink */
@@ -160,6 +160,7 @@ blockquote {
 
 .tutorial-item .box img {
     max-width: 100%; /* Ensure images are responsive within their container */
+    border-radius: 10px;
 }
 
 .author-info {
@@ -219,7 +220,9 @@ blockquote {
 .free .box{
     text-align: center;
 }
-
+.free .box h2{
+    padding: 15px;
+}
 
 button {
     display: block;
