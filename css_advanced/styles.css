@@ -1,36 +1,39 @@
-body{
-    background-image: url("https://i.ibb.co/J30HRrM/background.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-family: "Source Sans Pro","Spin-Cycle-OT";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
 
-#logo {
-    position:absolute ;
-    left: 172px;
-    top:35px;
-}
 .linkss {
-    position: absolute;
-    text-align: right;
-    right: 50px;
-    top:37px;
-    word-spacing: 50px ;
-    display: block;
+    display: flex;
+    justify-content:space-between ;
+    padding: 35px 100px ;
 }
 .linkss a{
+    font-size: 12px;
     color: white;
     text-decoration : none;
-}     
+    padding-right: 50px;
+}    
+main{
+    background-image: url("https://i.ibb.co/J30HRrM/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
 .getschool{
     text-align: center;
 }
-.getschool h1 {
+.getschool .h1{
+    max-height: 130px;
+}
+.getschool .h1 h1 {
     font-size: 120px;
     color: white;
-    text-align: center;
-    margin-top: 1.6em;
+    margin-top: 8rem;
 }
 .getschool p {
     display: inline-block;
@@ -52,28 +55,28 @@ body{
     cursor: pointer; 
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
 }
-h2 {
-    margin-top: 80px;
+.learn h2{
+    color: white;
+    font-weight: 100;
+    margin-top: 150px;
     text-align: center; 
 }
-
 .pink-text {
     font-size: 32px;
     font-weight: bold;
     color: #C271FF; 
 }
 
-h2, p {
+.learn p {
     font-size: 32px;
     color: black; 
 }
 
 
 .person-container {
-    margin-top: 80px;
+    margin: 80px 200px;
     display: flex; /* Allows children to align horizontally */
-    justify-content: center; /* Centers children horizontally */
-    gap: 20px; /* Adds space between children */
+    justify-content: space-between; /* Centers children horizontally */
 }
 
 .person-container > div {
@@ -82,7 +85,6 @@ h2, p {
 }
 
 .person-container img {
-    width: 100px; /* Adjust image width as needed */
     border-radius: 50%; /* Rounds the corners of the image */
 }
 
@@ -103,16 +105,16 @@ h2, p {
     display: flex;
     align-items: center;
     background-color: #C271FF; /* Set background color for the quote container */
-    padding: 70px;
-    margin-top: 23px;     
+    padding: 70px 250px;     
 }
 
 .quote-content {
     color: rgb(255, 255, 255);
-    margin-left: 20px; /* Add margin to separate from the image */
+    margin-left: 40px; /* Add margin to separate from the image */
 }
 
 blockquote {
+    font-size: 18px;
     margin: auto;
     color:rgb(255, 255, 255);
     background-color:#C271FF; /* Set background color for the quote block */
@@ -122,55 +124,50 @@ blockquote {
     margin: 5px 0; 
 }
 #bold {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
 }
 #italic {
-    font-size: 32px;
+    font-size: 25px;
     font-style: italic;
+}
+
+
+
+
+.popular-tutorials {
+    background-color: rgb(255, 255, 255); /* Set background color to white */
+    padding: 30px; /* Add padding for spacing */
+}
+
+.popular-tutorials h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px; /* Add margin below the heading */
+    background-color: rgb(255, 255, 255);
+
 }
 
 .tutorial-item{
     display: flex;
-
-}
-.box {
-    width: 58px;
-    height: 115px;
-    background-color: lightblue;
-    margin: 10px;
-}
-.popular-tutorials {
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rgb(255, 255, 255); /* Set background color to white */
-    padding: 20px; /* Add padding for spacing */
-}
-
-.popular-tutorials h1 {
-    margin-left: 570px;
-    font-size: 32px;
-    margin-bottom: 20px; /* Add margin below the heading */
-    background-color: rgb(255, 255, 255);
-
+    justify-content: space-between;
+    padding: 0 100px;
 }
 .pink-text {
     color: #C271FF; /* Sets the color of the text to pink */
 }
 
-.tutorial-item {
-    background-color: white; /* Set background color to white */
-    padding: 20px; /* Add padding for spacing */
-    margin-bottom: 20px; /* Add margin below each tutorial item */
-}
 
-.tutorial-item img {
+.tutorial-item .box img {
     max-width: 100%; /* Ensure images are responsive within their container */
 }
 
 .author-info {
     display: flex; /* Arrange author info in a row */
     align-items: center; /* Align items vertically */
+}
+.author-info h3{
+    color: #C271FF;
 }
 
 .author-info img {
@@ -179,23 +176,18 @@ blockquote {
     border-radius: 50%; /* Make author image round */
     margin-right: 10px; /* Add margin to the right for spacing */
 }
-
-.stars {
-    position: relative;
-    align-items:center; /* Align items vertically */
-    font-size: 12px;
-    left:0;
-    margin:0;
-    bottom:0;
+.main-stars{
+    display: flex;
+    justify-content: space-between;
 }
-.stars p{
-    position: absolute;
-    margin-right: auto;
+.main-stars p{
     color: #C271FF;
-    right:0;
-    margin:0;
-    bottom:0;
+    font-weight: 700;
 }
+.stars {
+    font-size: 21px;
+}
+
 .star {
     color: #C271FF;
 }
@@ -207,4 +199,80 @@ blockquote {
     padding: 5px 10px; /* Add padding for spacing */
     border-radius: 5px; /* Add border radius for rounded corners */
     margin-right: 10px; /* Add margin to the right for spacing */
+}
+
+.freecl{
+    background-color: #071629;
+    padding: 40px 0px;
+}
+.freecl h1{
+    color: #ffffff;
+    text-align: center;
+}
+.free {
+    display: flex ;
+    justify-content: space-between;
+    
+    padding: 50px 40px;
+    color: #fff;
+}
+.free .box{
+    text-align: center;
+}
+
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #C271FF;
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+.faq {
+    background-color: #ffffff;
+    padding: 40px 0px;
+}
+.faq h1{
+    color: #000000;
+    text-align: center;
+}
+.st{
+    display: flex ;
+    justify-content: space-between;
+    padding: 50px 150px;
+    color: #000000;
+}
+
+.st .box1 h2{
+    padding-bottom: 25px;
+}
+.st .box1 {
+    width:33%;
+}
+.st .box1 p{
+    opacity: 0.65;
+}
+footer{
+    background-color:#071629;
+    padding: 70px 100px 20px 100px;    
+}
+footer i{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 40%;
+}
+.footer-second{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-first p{
+    text-align: center;
+    padding-top: 70px;
+    color: #fff;
+    opacity: 0.3;
 }
